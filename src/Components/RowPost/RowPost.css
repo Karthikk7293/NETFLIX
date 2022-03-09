@@ -1,0 +1,21 @@
+.card-row{
+overflow-x: scroll;
+overflow-y: hidden;
+}
+
+.card-row::-webkit-scrollbar{
+    display: none;
+}
+img{
+    border-radius: 5px;
+    cursor: pointer;
+}
+.poster img:hover{
+    transform: scale(1.2);
+}
+.netflix-poster{
+    width: 200px;
+}
+.action-poster{
+    width: 100px;
+}
